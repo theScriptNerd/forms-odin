@@ -10,15 +10,24 @@ body {
 }
 div.image {
     /* background-image: url(https://unsplash.com/photos/0vUimYhadto/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1ODU5MDQx&force=true&w=640); */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
     height: 100vh;
     width: 600px;
     border: 1px solid purple;
     margin-right: auto;
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; */
     background: url(https://unsplash.com/photos/0vUimYhadto/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1ODU5MDQx&force=true&w=640) center/cover no-repeat white;
 }
+.image > span {
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255, 0.4);
+    position: relative;
+    top: 30%;
+    text-align: center;
+    display: block;
+}
 .fieldSet {
-    width: 55%;
+    
 }
