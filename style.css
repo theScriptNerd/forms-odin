@@ -58,3 +58,29 @@ form {
     padding-left: 20px;
     padding-top: 15px;
 }
+input[type=text], [type=password], [type=email], [type=tel]{
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 8px;
+}
+.crt {
+    margin: 30px 0px 20px 30px;
+    padding: 15px 25px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    background-color: brown;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+.crt:hover{
+    background-color: #c06161;
+}
+.log{
+    margin-left: 30px;
+}
+.log-in{
+    text-decoration: none;
+    font-weight:800;
+}
