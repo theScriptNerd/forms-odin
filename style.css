@@ -7,10 +7,11 @@ body {
     display: flex;
     font-size: 16px;
     min-height: 100%;
+    background-color: beige;
 }
 div.image {
-    /* background-image: url(https://unsplash.com/photos/0vUimYhadto/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1ODU5MDQx&force=true&w=640); */
-    /* background-repeat: no-repeat;
+    /* background-image: url(https://unsplash.com/photos/0vUimYhadto/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1ODU5MDQx&force=true&w=640);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
     height: 100vh;
@@ -22,12 +23,38 @@ div.image {
 .image > span {
     font-size: 3rem;
     font-weight: 700;
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     position: relative;
     top: 30%;
     text-align: center;
     display: block;
 }
+form {
+    align-self: center;
+}
 .fieldSet {
-    
+    display: flex;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.set1, .set2 {
+    width: 50%;
+    border: 0;
+}
+.set1{
+    padding-left: 20px;
+}
+.firstName, .emailAddress, .password, .lastName, .phoneNumber, .confirmPassword {
+    display: block;
+    margin-top: 10px;
+}
+.first, .second {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.third {
+    background-color: #fff;
+    padding-left: 20px;
+    padding-top: 15px;
 }

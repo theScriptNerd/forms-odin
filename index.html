@@ -13,32 +13,36 @@
     </div>
     <form action="" method="post">
         <legend class="first">This is the portal to the place where your life can be changed instantly. 
-            You only get one chance in a lifetime to sign up to this group. Will you take the chance?
+            You only get one chance in a lifetime to sign up to this group. 
         </legend>
-        <fieldset class="fieldSet">
-            <h2 class="second">
-                Let's do this!
-            </h2>
-            <label class="firstName" for="first-name">First Name:</label>
-            <input type="text" name="firstName" id="first-name">
+        <legend class="second">
+            Will you take the chance?
+        </legend>
+        <h2 class="third">
+            Let's do this!
+        </h2>
+        <div class="fieldSet">
+            <fieldset class="set1">
+                <label class="firstName" for="first-name">First Name:</label>
+                <input type="text" name="firstName" id="first-name">
 
-            <label class="lastName" for="last-name">Last Name:</label>
-            <input type="text" name="lastName" id="last-name"> <br>
-        <!-- </fieldset>
-        <fieldset> -->
-            <label class="emailAddress" for="email-address">Email:</label>
-            <input type="email" name="emailAddress" id="email-address"> 
+                <label class="emailAddress" for="email-address">Email:</label>
+                <input type="email" name="emailAddress" id="email-address"> 
+                
+                <label class="password" for="password">Password:</label>
+                <input type="password" name="password" id="password" minlength="8">
+            </fieldset>
+            <fieldset class="set2">
+                <label class="lastName" for="last-name">Last Name:</label>
+                <input type="text" name="lastName" id="last-name"> <br>
 
-            <label class="phoneNumber" for="phone-number">Phone Number:</label>
-            <input type="tel" name="phoneNumber" id="phone-number" minlength="11" maxlength="16"> <br>
-        <!-- </fieldset>
-        <fieldset> -->
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
+                <label class="phoneNumber" for="phone-number">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phone-number" minlength="11" maxlength="16" pattern="[0-9]"><br>
 
-            <label for="confirm-password">Confirm Password:</label>
-            <input type="password" name="confirmPassword" id="confirm-password">
-        </fieldset>
+                <label class="confirmPassword" for="confirm-password"> Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="confirm-password" minlength="8">
+            </fieldset>
+        </div>
             <button type="submit">Create Account</button>
             <button type="button" target="_blank">Log in</button>
     </form>
