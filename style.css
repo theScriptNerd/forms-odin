@@ -18,7 +18,7 @@ div.image {
     width: 600px;
     border: 1px solid purple;
     margin-right: auto;
-    background: url(https://unsplash.com/photos/0vUimYhadto/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1ODU5MDQx&force=true&w=640) center/cover no-repeat white;
+    background: url(./images/andrei-caliman-0vUimYhadto-unsplash.jpg) center/cover no-repeat white;
 }
 .image > span {
     font-size: 3rem;
